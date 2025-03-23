@@ -1,0 +1,107 @@
+
+
+.participants, .gallery, .events, .contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.event {
+    background-color: #0066cc;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.contact form {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.organization {
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(120deg, #1e1e1e, #004080);
+}
+
+.card {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid white;
+}
+
+.ketua {
+    background: radial-gradient(circle, #ff5733, #b20000);
+}
+
+.wakil {
+    background: radial-gradient(circle, #33ff57, #008000);
+}
+
+.sekretaris {
+    background: radial-gradient(circle, #3377ff, #00008b);
+}
+
+.bendahara {
+    background: radial-gradient(circle, #ffcc33, #b28a00);
+}
